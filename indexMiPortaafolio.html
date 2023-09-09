@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="ejemplo.js"></script>
+        <title>Portafolio</title>
+    </head>
+
+    <body>
+        <link href="style.css" rel="stylesheet" type="text/css">
+         <header>
+            <!-- Encabezado -->
+                <h1 id="titulo">Virginia Pérez Etchandy</h1>
+                <div id="presentacion">
+                     <p>Fotografía, Arte, Diseño Gráfico y Programación</p>
+                    </div>
+            </header>
+
+            <h2>Formación</h2>
+            <ul>
+
+            <li><a href="#fotografia">Fotografía</a></li>
+            <li><a href="#arte">Arte</a></li>
+            <li><a href="#formacion">Formación académica</a></li>
+            <li><a href="#contacto">Contactar</a></li>
+        </ul>
+        <hr>
+        <div id="fotografía">
+            <h2>
+                Fotografía
+            </h2>
+            <table>
+            <tr>
+                <th>Exteriores</th>
+                <th>Estudio</th>
+                <th>Social</th>
+                <th>Familia</th>
+                <th>Gastronómica/Producto</th>
+            </tr>
+
+            <tr>
+                 <!-- imagen de cada rama -->
+              
+                <td><img class="fotos" src="imagenes/_DSC0333_3373.JPG" alt="fotoVPE"></td>
+                <td><img class="fotos" src="Imagenes/_DSC0327_3367.JPG" alt="fotoVPE"></td>
+                <td><img class="fotos" src="Imagenes/_DSC0960_1289.JPG" alt="fotoVPE"></td>
+                <td><img class="fotos" src="Imagenes/_DSC1096_1395.JPG" alt="fotoVPE"></td>
+                <td><img class="fotos" src="Imagenes\_DSC0090_5502.jpg" alt="fotoVPE"><img src="Imagenes/_DSC0073_2958.jpg" alt="fotoVPE" height="100"></td>
+                
+            </tr>
+            </table>
+        </div>
+        <hr>
+        <div id="arte">
+            <h2>Arte</h2>
+            <img src="" alt="img.art">
+            <img src="" alt="img.art">
+            <img src="" alt="img.art">
+            <img src="" alt="img.art">
+            <a href="https://www.instagram.com/vir.peretch/">Instagram - artístico
+            </a>
+        </div>
+        <hr>
+        <div id="formacion">
+            <h2>Formación académica</h2>
+            <ul>
+                <li>Est. Lic. Diseño Gráfico UDELAR Bellas Artes</li>
+                <li>Est. danza contemporánea UDELAR Bellas Artes </li>
+                <li>Fotografía</li>
+                <li>Est. Jóvenes a Programar / Desarrollo Web</li>
+                <li>Artes Circenses</li>
+                <li>Prof. Stretching</li>
+                <li>Canto y Comedia Musical</li>
+                <li>Cine - Actuación frente a cámaras</li>
+            </ul>
+        </div>
+        <hr>
+        <div id="contacto" class="contacto">
+            <h2>Contactar</h2>
+            <form action="#" method="GET">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="Nombre" id="nombre" class="input">
+                <br>
+                <br>
+                <label for="asunto">Asunto:</label>
+                <select name="asunto" id="asunto" class="input">
+                    <option value="">-- Elige un asunto --</option>
+                    <option value="1">Consulta sobre Fotografía</option>
+                    <option value="2">Presupuesto</option>
+                    <option value="3">Propuesta Artística</option>
+                    <option value="4">Otro</option>
+                </select>
+                <br>
+                <br>
+                <label for="mail">mail:</label>
+                <input type="text" name="mail" id="mail" class="input">
+                <br>
+                <br>
+                <textarea name="mensaje" id="mensaje" class="input" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        
+    </body>    
+
+</html>

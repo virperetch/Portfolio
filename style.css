@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 4;
+    padding: 2;
+    background-color: beige;
+}
+
+h1 {
+ 
+    color: darkred;
+}
+
+h2 {
+    color: darkolivegreen;
+    margin: 6px
+}
+
+.fotos {
+    height: 100px
+}
+
+.input {
+    background-color: rgb(0, 0, 0);
+    color: rgb(166, 189, 121);
+}
+
+.contacto {
+    background-image:url(Imagenes/_DSC0960_1289.JPG) ;
+    background-repeat: no repeat;
+    background-size: cover;
+
+}
+
+#contacto {
+    color: white;
+}
+
+#contacto h2 {
+    font-size: 30px;
+    color: white;
+}
+
+#contacto label{
+    margin: 6px;
+}
+
+#titulo {
+    font-size: 45px;
+}
+
+#presentacion {
+    font-style: italic;
+    font-size: 25px;
+}
+
+#mensaje {
+    margin: 6px
+}
